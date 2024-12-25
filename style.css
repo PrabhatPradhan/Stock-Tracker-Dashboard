@@ -65,7 +65,7 @@ h1, h2 {
 .stock-selector button, .search-box button {
     padding: 10px 15px;
     border-radius: 5px;
-    background-color: #6c747b; 
+    background-color: #7dc98b; 
     color: #ffffff;
     font-size: 1.2rem;
     cursor: pointer;
@@ -75,7 +75,7 @@ h1, h2 {
 }
 
 .stock-selector button:hover, .search-box button:hover {
-    background-color: #6c747b; 
+    background-color: #005985; 
 }
 
 #stock-info {
@@ -167,4 +167,13 @@ td {
     .container {
         padding: 1rem;
     }
+}
+
+.box-1{
+    display: flex;
+    flex-direction: row;
+}
+.box-1 button{
+    background-color: rgb(26, 110, 166);
+
 }
